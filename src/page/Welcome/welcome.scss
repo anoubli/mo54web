@@ -1,0 +1,85 @@
+@use '../../style/colors';
+
+
+.Welcome
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 246, 246);
+    height: 100vh;
+    button {
+        border-radius: 15px;
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+    #b1 {
+        background-color: steelblue;
+        color: white;
+    }
+
+    #b2 {
+        color: steelblue;
+    }
+
+
+}
+
+.head
+{
+    display: flex;
+    justify-content: center;
+    .animated-logo {
+        max-width: 200px;
+    }
+    height: 32vh;
+}
+
+.foot
+{
+   
+   display: flex; 
+   justify-content: space-around;
+}
+
+.space_ro
+{
+    height: 3vh;
+}
+
+
+
+.Connexion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 246, 246);
+    height: 90vh;
+    button {
+        border-radius: 15px;
+        border-width: 0.1px;
+        background-color: steelblue;
+        color: whitesmoke;
+        border-color: steelblue;
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    input
+    {
+        border-radius: 15px;
+        border-width: 0.1px;
+        border-color: lightgray;
+    }
+
+}
+
+.error
+{
+    height: 25px;
+    color : red;
+
+}
